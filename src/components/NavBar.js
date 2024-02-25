@@ -5,7 +5,7 @@ export function NavBar() {
         <a className="navbar-brand" href="index.html">
           <h2 className="text-white text-capitalize">
             <i />
-            Gym<span className="text-color">Fit</span>
+            Poo<span className="text-color">Web</span>
           </h2>
         </a>
         <button
