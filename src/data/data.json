@@ -1,0 +1,20 @@
+[
+  {
+    "numero": "01",
+    "titulo": "Modern Equipment",
+    "texto": " Vestibulum sit amet blan augue, sit amet vehicula mi. Aliquam vitae varius.",
+    "boton": "more details"
+  },
+  {
+    "numero": "02",
+    "titulo": "PROFFESIONAL TRAINer",
+    "texto": " Vestibulum sit amet blan augue, sit amet vehicula mi. Aliquam vitae varius.",
+    "boton": "more details"
+  },
+  {
+    "numero": "03",
+    "titulo": "HEALTHY DIET Plan",
+    "texto": " Vestibulum sit amet blan augue, sit amet vehicula mi. Aliquam vitae varius.",
+    "boton": "more details"
+  }
+]

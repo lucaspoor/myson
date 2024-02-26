@@ -55,24 +55,31 @@ h6, .h6 {
   font-family: "Montserrat", sans-serif;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
   width: 100%;
 }
 
 .navbar-toggle .icon-bar {
-  background: red;
+  background: rgb(101, 108, 254);
 }
 
-input[type=email], input[type=password], input[type=text], input[type=tel] {
+input[type=email],
+input[type=password],
+input[type=text],
+input[type=tel] {
   box-shadow: none;
   height: 50px;
   outline: none;
   font-size: 14px;
 }
-input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, input[type=tel]:focus {
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=text]:focus,
+input[type=tel]:focus {
   box-shadow: none;
-  border: 1px solid red;
+  border: 1px solid rgb(101, 108, 254);
 }
 
 .form-control {
@@ -81,7 +88,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .form-control:focus {
   box-shadow: none;
-  border: 1px solid red;
+  border: 1px solid rgb(101, 108, 254);
 }
 
 .btn {
@@ -97,23 +104,23 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .btn-main, .btn-small, .btn-transparent {
-  background: linear-gradient(90deg, rgb(245, 99, 75) 0%, #fe9418 100%);
+  background: linear-gradient(90deg, rgb(101, 108, 254) 0%, #462ab3 100%);
   color: #fff;
 }
 .btn-main:hover, .btn-small:hover, .btn-transparent:hover {
-  background: linear-gradient(90deg, #fe9418 0%, rgb(245, 99, 75) 100%);
+  background: linear-gradient(90deg, #462ab3 0%, rgb(101, 108, 254) 100%);
   color: #fff !important;
   transform: translateY(-5px);
 }
 
 .btn-solid-border {
-  border: 2px solid red;
+  border: 2px solid rgb(101, 108, 254);
   background: transparent;
   color: #fff;
 }
 .btn-solid-border:hover {
-  border: 2px solid red;
-  background: red;
+  border: 2px solid rgb(101, 108, 254);
+  background: rgb(101, 108, 254);
 }
 
 .btn-white {
@@ -122,19 +129,19 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   color: #232323;
 }
 .btn-white:hover {
-  border: 1px solid red;
-  background: red;
+  border: 1px solid rgb(101, 108, 254);
+  background: rgb(101, 108, 254);
   color: #fff !important;
 }
 
 .btn-transparent {
   background: transparent;
   padding: 0;
-  color: red;
+  color: rgb(101, 108, 254);
 }
 .btn-transparent:hover {
   background: transparent;
-  color: red;
+  color: rgb(101, 108, 254);
 }
 
 .btn-large {
@@ -159,7 +166,9 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   border-radius: 50px;
 }
 
-.btn.active:focus, .btn:active:focus, .btn:focus {
+.btn.active:focus,
+.btn:active:focus,
+.btn:focus {
   outline: 0;
 }
 
@@ -174,7 +183,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .bg-primary {
-  background: red !important;
+  background: rgb(101, 108, 254) !important;
 }
 
 .section {
@@ -229,12 +238,13 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   opacity: 0.8;
 }
 
-#success, #error {
+#success,
+#error {
   display: none;
 }
 
 .text-color {
-  color: red;
+  color: rgb(101, 108, 254);
 }
 
 .text-black {
@@ -263,8 +273,9 @@ a {
   transition: all 0.35s ease;
 }
 
-a:hover, a:focus {
-  color: red !important;
+a:hover,
+a:focus {
+  color: rgb(101, 108, 254) !important;
   text-decoration: none !important;
   outline: 0;
 }
@@ -293,7 +304,7 @@ a:hover, a:focus {
   transition: all 0.25s ease;
 }
 .navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus {
-  color: red;
+  color: rgb(101, 108, 254);
 }
 
 .top-header {
@@ -346,7 +357,7 @@ a:hover, a:focus {
 
 .dropdown-item:hover {
   background: transparent;
-  color: red;
+  color: rgb(101, 108, 254);
 }
 
 ul.dropdown-menu li {
@@ -369,7 +380,7 @@ ul.dropdown-menu li {
 }
 
 .slider {
-  background: url("../images/bg/bg-7.jpg") no-repeat 0% 30%;
+  background: url("../../images/bg/bg-7.jpg") no-repeat 0% 30%;
   background-size: cover;
   padding: 180px 0px;
 }
@@ -386,17 +397,17 @@ ul.dropdown-menu li {
 }
 
 .bg-2 {
-  background: url("../images/bg/bg-image-2-1.jpg") no-repeat;
+  background: url("../../images/bg/bg-image-2-1.jpg") no-repeat;
   background-size: cover;
 }
 
 .bg-3 {
-  background: url("../images/bg/bg-cta.jpg") no-repeat;
+  background: url("../../images/bg/bg-cta.jpg") no-repeat;
   background-size: cover;
 }
 
 .bg-4 {
-  background: url("../images/about/img-7.jpg") no-repeat;
+  background: url("../../images/about/img-7.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -437,7 +448,7 @@ ul.dropdown-menu li {
   height: 0px;
   transition: all 600ms ease;
   background: linear-gradient(90deg, rgb(245, 99, 75) 0%, #fe9418 100%);
-  border-color: red;
+  border-color: rgb(101, 108, 254);
 }
 .hover-style-1 h3, .hover-style-1 p, .hover-style-1 a, .hover-style-1 i, .hover-style-1 h4 {
   position: relative;
@@ -466,7 +477,7 @@ ul.dropdown-menu li {
 }
 
 .course .card-body a h4:hover {
-  color: red;
+  color: rgb(101, 108, 254);
 }
 
 .course-widget li a {
@@ -478,7 +489,7 @@ ul.dropdown-menu li {
   color: #fff;
 }
 .team-content-overlay li a:hover {
-  background: red;
+  background: rgb(101, 108, 254);
 }
 
 .team-item .card-body {
@@ -538,20 +549,20 @@ ul.dropdown-menu li {
   padding-top: 6px;
 }
 .team-wrap ul li a:hover {
-  background: red;
-  border-color: red;
+  background: rgb(101, 108, 254);
+  border-color: rgb(101, 108, 254);
   color: #fff !important;
 }
 
 .divider {
   margin: 0 auto;
-  background: red;
+  background: rgb(101, 108, 254);
   width: 45px;
   height: 4px;
 }
 
 .cta {
-  background: url("../images/bg/slide2.jpg") fixed 50% 50% no-repeat;
+  background: url("../../images/bg/slide2.jpg") fixed 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -564,7 +575,7 @@ ul.dropdown-menu li {
 }
 
 .slick-dots li.slick-active button::before {
-  color: red;
+  color: rgb(101, 108, 254);
 }
 
 .slick-dots li button::before {
@@ -610,7 +621,7 @@ ul.dropdown-menu li {
   font-weight: 700;
 }
 .blog .card a h4:hover {
-  color: red;
+  color: rgb(101, 108, 254);
 }
 
 .blog-post-meta span {
@@ -653,8 +664,8 @@ ul.dropdown-menu li {
   color: #232323;
 }
 .pagination .page-item.active .page-link {
-  background-color: red;
-  border-color: red;
+  background-color: rgb(101, 108, 254);
+  border-color: rgb(101, 108, 254);
   color: #fff !important;
 }
 .pagination .page-item:last-child .page-link {
@@ -710,7 +721,7 @@ ul.dropdown-menu li {
   font-size: 14px;
 }
 .footer-menu li a:hover {
-  color: red;
+  color: rgb(101, 108, 254);
   opacity: 1;
 }
 

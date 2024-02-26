@@ -12,10 +12,9 @@ export function Hero() {
               <br />
               with us
             </h1>
-
             <a href="pricing.html" target="_blank" className="btn btn-main ">
               Join Us <i className="ti-angle-right ml-3"></i>
-            </a>
+            </a>{" "}
           </div>
         </div>
       </div>
