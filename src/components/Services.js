@@ -17,7 +17,7 @@ export function Services() {
 
         <div className="row no-gutters">
           <div className="col-lg-4 col-md-6 col-sm-6">
-            <img></img>
+            <img src="images/"></img>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="text-center  px-4 py-5 ">
