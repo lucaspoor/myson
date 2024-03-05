@@ -308,10 +308,8 @@ a:focus {
   background: #181a23;
 }
 
-.premium {
-  width: 250px;
-  overflow: hidden;
-  height: 250px;
+.especific {
+  padding-top: 200px;
 }
 
 .navbar-nav li {
