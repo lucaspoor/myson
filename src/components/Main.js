@@ -5,23 +5,20 @@ import { Services } from "./Services";
 import { Gallery } from "./Gallery";
 import { Testimonials } from "./Testimonials";
 import { Courses } from "./Courses";
+import { Projects } from "./projects";
 
 export function Main() {
   return (
     <>
       <Hero />
-
       <Info />
+      <Discount></Discount>
+      <Projects></Projects>
+      <Services></Services>
 
-      <Discount />
-
-      <Services />
-
-      <Gallery />
-
-      <Testimonials />
-
-      <Courses />
+      <Gallery></Gallery>
+      <Testimonials></Testimonials>
+      <Courses></Courses>
     </>
   );
 }

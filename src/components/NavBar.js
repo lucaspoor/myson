@@ -101,7 +101,7 @@ export function NavBar() {
           <div className="my-md-0 ml-lg-4 mt-4 mt-lg-0 ml-auto text-lg-right mb-3 mb-lg-0">
             <a href="tel:+23-345-67890">
               <h3 className="text-color mb-0">
-                <i className="ti-mobile mr-2"></i>+23-563-5688
+                <i className="ti-mobile mr-2"></i>+56 9 3208 2293
               </h3>
             </a>
           </div>
