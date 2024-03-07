@@ -14,11 +14,6 @@ export function Main() {
       <Info />
       <Discount></Discount>
       <Projects></Projects>
-      <Services></Services>
-
-      <Gallery></Gallery>
-      <Testimonials></Testimonials>
-      <Courses></Courses>
     </>
   );
 }

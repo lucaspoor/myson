@@ -1,11 +1,22 @@
 [
   {
-    "imagen": "/images/cymm.png"
+    "imagen": "/images/cymm.png",
+    "nombre": "Cymmedical",
+    "tipo": "landing page"
   },
   {
-    "imagen": "/images/cymm.png"
+    "imagen": "/images/doomie.png",
+    "nombre": "Nautique",
+    "tipo": "e-commerce"
   },
   {
-    "imagen": "/images/cymm.png"
+    "imagen": "/images/nauticadoomie.png",
+    "nombre": "NauticaCalderon",
+    "tipo": "showroom page"
+  },
+  {
+    "imagen": "/images/delta.png",
+    "nombre": "DeltaDigital",
+    "tipo": "blog personal"
   }
 ]

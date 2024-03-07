@@ -1,17 +1,20 @@
+import sections from "../data/sections.json";
+
 export function Footer() {
   return (
     <footer className="footer bg-black-50">
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6 mb-5 mb-lg-0">
-            <h2 className="text-white mb-4">GymFit</h2>
+            <h2 className="text-white mb-4">Pooweb</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus illo ad quo sunt maiores, sint nostrum omnis eaque
-              cumque dolorum.
+              Potenciamos su presencia online con diseño web innovador y
+              funcional. Transformamos ideas en experiencias digitales
+              excepcionales. Convierta visitantes en clientes con nuestro equipo
+              experto en desarrollo web.
             </p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>No dudes más, contáctanos y potencia tu negocio.</p>
           </div>
 
           <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
@@ -39,31 +42,16 @@ export function Footer() {
                 Quick Links
               </h4>
               <ul className="list-unstyled footer-menu lh-40 mb-0">
-                <li>
-                  <a href="about.html">
-                    <i className="ti-angle-double-right mr-2"></i>About Us
-                  </a>
-                </li>
-                <li>
-                  <a href="service.html">
-                    <i className="ti-angle-double-right mr-2"></i>Services
-                  </a>
-                </li>
-                <li>
-                  <a href="pricing.html">
-                    <i className="ti-angle-double-right mr-2"></i>Membership
-                  </a>
-                </li>
-                <li>
-                  <a href="course.html">
-                    <i className="ti-angle-double-right mr-2"></i>Courses
-                  </a>
-                </li>
-                <li>
-                  <a href="contact.html">
-                    <i className="ti-angle-double-right mr-2"></i>Contact us
-                  </a>
-                </li>
+                {sections.map((s) => {
+                  return (
+                    <li>
+                      <a href="about.html">
+                        <i className="ti-angle-double-right mr-2"></i>
+                        {s.seccion}
+                      </a>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           </div>
@@ -72,8 +60,8 @@ export function Footer() {
               <h4 className="mb-4 text-white letter-spacing text-uppercase">
                 Home location
               </h4>
-              <p>Washington 6036 Richmond hwy., Alexandria, VA USA 22303 </p>
-              <span className="text-white">+1 (409) 987–5874</span>
+              <p>Chile, Región de la Araucanía, Pucón </p>
+              <span className="text-white">+56932082293</span>
               <span className="text-white">info@demolink.org</span>
             </div>
           </div>

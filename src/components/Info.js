@@ -30,7 +30,7 @@ export function Info() {
         </div>
       </section>
 
-      <section className="section about">
+      <section className="section about dism">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
