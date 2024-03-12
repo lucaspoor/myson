@@ -2,21 +2,21 @@
   {
     "imagen": "/images/cymm.png",
     "nombre": "Cymmedical",
-    "tipo": "landing page"
+    "tipo": "Landing page"
   },
   {
     "imagen": "/images/doomie.png",
     "nombre": "Nautique",
-    "tipo": "e-commerce"
+    "tipo": "E-commerce"
   },
   {
     "imagen": "/images/nauticadoomie.png",
     "nombre": "NauticaCalderon",
-    "tipo": "showroom page"
+    "tipo": "Showroom page"
   },
   {
     "imagen": "/images/delta.png",
     "nombre": "DeltaDigital",
-    "tipo": "blog personal"
+    "tipo": "Blog personal"
   }
 ]

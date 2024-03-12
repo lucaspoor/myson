@@ -14,6 +14,7 @@ export function Main() {
       <Info />
       <Discount></Discount>
       <Projects></Projects>
+      <Testimonials></Testimonials>
     </>
   );
 }

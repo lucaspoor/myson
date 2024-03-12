@@ -33,11 +33,11 @@ export function Projects() {
                       <span className="badge rounded-pill btn-solid-border tipo ">
                         {p.tipo}
                       </span>
-                      <h3 class="card-title text-color">{p.nombre}</h3>
+                      <h3 class="card-title text-black py-2">{p.nombre}</h3>
 
                       <a
                         href="pricing.html"
-                        className="btn btn-solid-border text-black"
+                        className="btn btn-solid-border text-color "
                       >
                         Cotizanos<i className="ti-angle-right ml-3"></i>
                       </a>
