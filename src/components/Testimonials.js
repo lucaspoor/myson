@@ -5,9 +5,9 @@ export function Testimonials() {
     <section className="section textimonial position-relative bg-3">
       <div className="content ">
         <div className="main p-3 pt-4 row ">
-          <div className="col-xs-4 col-lg-5 col-xl-8 d-block m-4 justify-content-center ">
-            <div className="col-lg-8 m-4 ">
-              <div className="pl-3 mt-5 mt-lg-0">
+          <div className="col-xs-4 col-lg-5 col-xl-7 d-block m-4  ">
+            <div className="col-lg-8 m-4 mx-auto my-auto">
+              <div className="pl-3 mt-5  ">
                 <h2 className="mt-1 mb-3 text-white">
                   ¿Por qué elegirnos <br />
                   como <span className="text-color">
@@ -30,7 +30,7 @@ export function Testimonials() {
             </div>
           </div>
 
-          <div className="col-xs-4 col-lg-5 col-xl-3 d-block m-4 mt-xl-12  ">
+          <div className="col-xs-4 col-lg-5 col-xl-3 d-block    ">
             <div className="card row">
               <div className="card-header">
                 <h4 className="mr-auto mb-0 pr-3">Settings</h4>

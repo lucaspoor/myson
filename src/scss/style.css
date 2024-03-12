@@ -359,6 +359,10 @@ a:focus {
   padding-top: 50px;
 }
 
+.form-group {
+  width: 100%;
+}
+
 .navbar-nav li {
   padding: 0px 10px;
 }
