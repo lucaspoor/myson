@@ -1,4 +1,5 @@
 import forms from "../data/forms.json";
+import { FormContacto } from "./form.tsx";
 
 export function Contact() {
   return (
@@ -31,29 +32,12 @@ export function Contact() {
           <div className="col-xs-11 col-md-5 col-sm-10 col-lg-5 col-xl-4 d-block  mt-5  ">
             <div className="card row p-2">
               <div className="card-header">
-                <h4 className="mr-auto mb-0  pr-3 touppe text-uppercase">
+                <h4 className="mr-auto mb-0 ml-3 pr-3 touppe text-uppercase">
                   {forms.formTitle}
                 </h4>
               </div>
               <div className="card-body">
-                <form>
-                  {forms.formSections.map((f) => {
-                    return (
-                      <div className="form-row">
-                        <div className="form-group col-md-12 ">
-                          <label className="col-form-label" for="Name">
-                            {f.title}
-                          </label>
-                          <input className="form-control" type="text" />
-                        </div>
-                      </div>
-                    );
-                  })}
-
-                  <button type="submit" className="btn btn-main">
-                    Enviar
-                  </button>
-                </form>
+                <FormContacto></FormContacto>
               </div>
             </div>
           </div>
