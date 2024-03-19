@@ -1,4 +1,4 @@
-import data from "../data/data.json";
+import info from "../data/info.json";
 
 export function Info() {
   return (
@@ -6,7 +6,7 @@ export function Info() {
       <section className="mt-80px">
         <div className="container">
           <div className="row ">
-            {data.map((d) => {
+            {info.especialidades.map((d) => {
               return (
                 <div className="col-lg-4 col-md-6">
                   <div className="card p-5 border-0 rounded-top border-bottom position-relative hover-style-1">
@@ -40,18 +40,16 @@ export function Info() {
             <div className="col-lg-6">
               <div className="pl-3 mt-5 mt-lg-0">
                 <h2 className="mt-1 mb-3">
-                  ¿Por qué elegirnos <br />
-                  como <span className="text-color">
-                    agencia de marketing
-                  </span>{" "}
-                  en Chile?{" "}
+                  ¿Por qué elegirnos para{" "}
+                  <span className="text-color">desarrollar el sitio web</span>{" "}
+                  de tu negocio?{" "}
                 </h2>
 
                 <p className="mb-4">
-                  Te ayudaremos a crear las mejores experiencias y a entregar un
-                  mensaje que esté en sintonía con tus usuarios a través de
-                  nuestras soluciones de diseño, marketing, contenido y comercio
-                  electrónico.
+                  Te ayudaremos a crear un sitio web ideal para tu negocio que
+                  impulse sus ventas y su presencia digital, el cual tendra un
+                  alto nivel de calidad estetico y tecnologico por valores
+                  asequibles para empresas de mediano y pequeño tamaño
                 </p>
 
                 <a href="#" className="btn btn-main">

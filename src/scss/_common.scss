@@ -280,6 +280,10 @@ a:focus {
     margin-left: 0;
     margin-right: 0;
   }
+  .responsivo {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
 }
 
 @include tablet {
@@ -288,10 +292,25 @@ a:focus {
     margin-right: 10;
   }
 }
+
 .dism {
   padding-top: 50px;
 }
 
 .form-group {
   width: 100%;
+}
+
+@media (min-width: 1250px) {
+  .parcheresponsivo {
+    margin-top: 180px;
+  }
+  .paddingchange {
+    padding-top: 90px !important;
+  }
+}
+
+.logoEstilo {
+  width: 40px;
+  height: 40px;
 }

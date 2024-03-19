@@ -1,22 +1,47 @@
-[
-  {
-    "imagen": "/images/cymm.png",
-    "nombre": "Cymmedical",
-    "tipo": "Landing page"
-  },
-  {
-    "imagen": "/images/doomie.png",
-    "nombre": "Nautique",
-    "tipo": "E-commerce"
-  },
-  {
-    "imagen": "/images/nauticadoomie.png",
-    "nombre": "NauticaCalderon",
-    "tipo": "Showroom page"
-  },
-  {
-    "imagen": "/images/delta.png",
-    "nombre": "DeltaDigital",
-    "tipo": "Blog personal"
-  }
-]
+{
+  "titulo": "Nuestros Proyectos",
+  "subtitulo": "nuestros sitios web incluyen",
+  "boton": "Cotizanos",
+  "infoextras": [
+    {
+      "info": "Hosting por 1 año",
+      "icono": "icofont-server",
+      "info2": "Desarrollo ReactJs",
+      "icono2": "icofont-file-javascript"
+    },
+    {
+      "info": "Edición de imagenes",
+      "icono": "icofont-image",
+      "info2": "Certificado SSL",
+      "icono2": "icofont-ssl-security"
+    },
+    {
+      "info": "Formularios",
+      "icono": "icofont-email",
+      "info2": "Integración con WSP",
+      "icono2": "icofont-brand-whatsapp"
+    }
+  ],
+  "infoproyectos": [
+    {
+      "imagen": "/images/cymm.png",
+      "nombre": "Cymmedical",
+      "tipo": "Landing page"
+    },
+    {
+      "imagen": "/images/doomie.png",
+      "nombre": "Nautique",
+      "tipo": "E-commerce"
+    },
+    {
+      "imagen": "/images/nauticadoomie.png",
+      "nombre": "NauticaCalderon",
+      "tipo": "Showroom page"
+    },
+    {
+      "imagen": "/images/delta.png",
+      "nombre": "DeltaDigital",
+      "tipo": "Blog personal"
+    }
+  ]
+}

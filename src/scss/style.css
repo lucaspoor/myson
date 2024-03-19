@@ -348,6 +348,10 @@ a:focus {
     margin-left: 0;
     margin-right: 0;
   }
+  .responsivo {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
 }
 @media (max-width: 768px) {
   .premium {
@@ -361,6 +365,19 @@ a:focus {
 
 .form-group {
   width: 100%;
+}
+
+@media (min-width: 1250px) {
+  .parcheresponsivo {
+    margin-top: 180px;
+  }
+  .paddingchange {
+    padding-top: 90px !important;
+  }
+}
+.logoEstilo {
+  width: 40px;
+  height: 40px;
 }
 
 .navbar-nav li {

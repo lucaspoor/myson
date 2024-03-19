@@ -1,9 +1,9 @@
-import sections from "../data/sections.json";
+import sections from "../data/navbar.json";
 
 export function Footer() {
   return (
-    <footer className="footer bg-black-50">
-      <div className="container">
+    <footer className="footer bg-black-50 paddingchange">
+      <div className="container" id="test">
         <div className="row">
           <div className="col-lg-4 col-md-6 mb-5 mb-lg-0">
             <h2 className="text-white mb-4">Pooweb</h2>
@@ -20,29 +20,31 @@ export function Footer() {
           <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <div className="footer-widget recent-blog">
               <h4 className="mb-4 text-white letter-spacing text-uppercase">
-                Recents Posts
+                Trabajos recientes
               </h4>
               <div>
                 <a href="blog-single.html" className="text-white">
-                  Claritas est etiam processus dynamicus
+                  Desarrollo sitio web Cymmedical
                 </a>
-                <p className="text-sm mt-2 text-white-50">30 february 2019</p>
+                <p className="text-sm mt-2 text-white-50">
+                  30 de noviembre 2023
+                </p>
               </div>
               <div className="mt-4">
                 <a href="blog-single.html" className="text-white">
-                  Claritas est etiam processus dynamicus
+                  Desarrollo sitio web Pastene
                 </a>
-                <p className="text-sm mt-2 text-white-50">30 february 2019</p>
+                <p className="text-sm mt-2 text-white-50">30 february 2023</p>
               </div>
             </div>
           </div>
           <div className="col-lg-2 col-md-5 mb-5 mb-lg-0">
             <div className="footer-widget">
               <h4 className="mb-4 text-white letter-spacing text-uppercase">
-                Quick Links
+                secciones
               </h4>
               <ul className="list-unstyled footer-menu lh-40 mb-0">
-                {sections.map((s) => {
+                {sections.secciones.map((s) => {
                   return (
                     <li>
                       <a href="about.html">
@@ -58,11 +60,11 @@ export function Footer() {
           <div className="col-lg-3 col-md-5">
             <div className="footer-widget">
               <h4 className="mb-4 text-white letter-spacing text-uppercase">
-                Home location
+                Ubicación
               </h4>
               <p>Chile, Región de la Araucanía, Pucón </p>
-              <span className="text-white">+56932082293</span>
-              <span className="text-white">info@demolink.org</span>
+              <span className="text-white">+569 3208 2293</span> <br />
+              <span className="text-white">Lucaspoor10@gmail.com</span>
             </div>
           </div>
         </div>
@@ -70,9 +72,9 @@ export function Footer() {
         <div className="row align-items-center mt-5 px-3 bg-black mx-1">
           <div className="col-lg-4">
             <p className="text-white mt-3">
-              Gymfit © 2019 , Theme By{" "}
+              PooWeb © 2024 , Desarrollado por{" "}
               <a href="https://themefisher.com/" className="text-color">
-                Themefisher.com
+                Lucas Poo
               </a>
             </p>
           </div>

@@ -3,7 +3,7 @@ import { Info } from "./Info";
 import { Discount } from "./Discount";
 import { Services } from "./Services";
 import { Gallery } from "./Gallery";
-import { Testimonials } from "./Testimonials";
+import { Contact } from "./Contact";
 import { Courses } from "./Courses";
 import { Projects } from "./projects";
 
@@ -14,7 +14,7 @@ export function Main() {
       <Info />
       <Discount></Discount>
       <Projects></Projects>
-      <Testimonials></Testimonials>
+      <Contact></Contact>
     </>
   );
 }

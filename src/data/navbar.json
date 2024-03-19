@@ -1,0 +1,23 @@
+{
+  "tituloNormal": "Poo",
+  "tituloColor": "Web",
+  "secciones": [
+    {
+      "seccion": "Inicio",
+      "link": "#linkInicio"
+    },
+    {
+      "seccion": "Nuestros Servicios",
+      "link": "#linkServicios"
+    },
+    {
+      "seccion": "Proyectos",
+      "link": "#linkProyectos"
+    },
+
+    {
+      "seccion": "Contacto",
+      "link": "#linkContacto"
+    }
+  ]
+}

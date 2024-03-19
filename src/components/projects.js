@@ -3,24 +3,38 @@ import projects from "../data/projects.json";
 export function Projects() {
   return (
     <>
-      <section className="mt-80px section services especific ">
-        <div className="container ">
+      <section
+        className="mt-80px section services especific "
+        id="linkProyectos"
+      >
+        <div className="container  ">
           <div className="row justify-content-center">
             <div className="col-lg-8 text-center">
               <div className="section-title">
                 <div className="divider mb-3"></div>
-                <h2>Proyectos recientes</h2>
-                <p>
-                  We offer more than 35 group exercis, aerobic classNamees each
-                  week.We offer more than 35 group exercis, aerobic classNamees
-                </p>
+                <h2>{projects.titulo}</h2>
+                <p>{projects.subtitulo}</p>
+                <div className="row mt-5">
+                  {projects.infoextras.map((i) => {
+                    return (
+                      <ul className="list-group list-group-flush col-4 ">
+                        <li className="list-group-item">
+                          <i className={i.icono}></i> {i.info}
+                        </li>
+                        <li className="list-group-item">
+                          <i className={i.icono2}></i> {i.info2}
+                        </li>
+                      </ul>
+                    );
+                  })}
+                </div>
               </div>
             </div>
           </div>
 
           <div className="container">
             <div className="row ">
-              {projects.map((p) => {
+              {projects.infoproyectos.map((p) => {
                 return (
                   <div className="col-lg-6 col-md-6 col-sm-4 py-3  ">
                     <div className="card border-0 rounded shadow-sm premium   ">
@@ -39,7 +53,8 @@ export function Projects() {
                         href="pricing.html"
                         className="btn btn-solid-border text-color "
                       >
-                        Cotizanos<i className="ti-angle-right ml-3"></i>
+                        {projects.boton}
+                        <i className="ti-angle-right ml-3"></i>
                       </a>
                     </div>
                   </div>

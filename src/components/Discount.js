@@ -6,16 +6,23 @@ export function Discount() {
           <div className="col-lg-8 col-md-12 col-sm-12">
             <div className="text-center">
               <span className="h6 letter-spacing text-white">
-                Dscover your potential
+                Impulsa tu empresa
               </span>
               <h2 className="text-lg mt-4 mb-5 text-white">
-                Book your early seat to get{" "}
-                <span className="text-color">summer 25% </span>discount
+                Recibe más información de{" "}
+                <span className="text-color">Descuentos </span>que tenemos
               </h2>
-
-              <a href="pricing.html" className="btn btn-main text-white">
-                Join Today
-              </a>
+              <div>
+                <input
+                  name="user_email"
+                  type="text"
+                  className="form-control mb-4"
+                  placeholder="Correo electronico"
+                />
+                <a href="pricing.html" className="btn btn-main text-white">
+                  Enviar
+                </a>
+              </div>
             </div>
           </div>
         </div>

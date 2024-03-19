@@ -3,18 +3,24 @@ import "../src/scss/style.css";
 import { NavBar } from "./components/NavBar";
 import { Main } from "./components/Main";
 import { Footer } from "./components/Footer";
+import { BrowserRouter } from "react-router-dom";
+import { FormspreeProvider } from "@formspree/react";
 
 function App() {
   return (
-    <div>
-      <NavBar />
+    <FormspreeProvider project="2431245809828756720">
+      <div>
+        <BrowserRouter>
+          <NavBar />
 
-      <div className="main-wrapper ">
-        <Main />
+          <div className="main-wrapper ">
+            <Main />
 
-        <Footer />
+            <Footer />
+          </div>
+        </BrowserRouter>
       </div>
-    </div>
+    </FormspreeProvider>
   );
 }
 

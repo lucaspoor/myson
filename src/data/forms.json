@@ -1,18 +1,23 @@
-[
-  {
-    "title": "Nombre"
-  },
-  {
-    "title": "Apellido"
-  },
-  {
-    "title": "Correo"
-  },
-  {
-    "title": "Número de teléfono"
-  },
+{
+  "subTitulo": "Descubre cómo nuestros servicios de desarrollo web pueden transformar tu negocio hoy mismo!",
+  "formTitle": "Contacto",
+  "boton": "ver más",
+  "formSections": [
+    {
+      "title": "Nombre"
+    },
+    {
+      "title": "Apellido"
+    },
+    {
+      "title": "Correo"
+    },
+    {
+      "title": "Número de teléfono"
+    },
 
-  {
-    "title": "Mensaje"
-  }
-]
+    {
+      "title": "Mensaje"
+    }
+  ]
+}

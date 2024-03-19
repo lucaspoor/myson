@@ -1,6 +1,8 @@
+import { HashLink as Link } from "react-router-hash-link";
+
 export function Hero() {
   return (
-    <section className="slider">
+    <section className="slider" id="linkInicio">
       <div className="container">
         <div className="row">
           <div className="col-md-8">
@@ -11,11 +13,12 @@ export function Hero() {
               digitaliza tu
               <span className="text-color"> negocio y aumenta </span> tus ventas
             </h1>
-            <a href="pricing.html" target="_blank" className="btn btn-main ">
+            <Link smooth to="#test" className="btn btn-main ">
               únetenos <i className="ti-angle-right ml-3"></i>
-            </a>{" "}
+            </Link>{" "}
           </div>
         </div>
+        <div id="linkServicios"></div>
       </div>
     </section>
   );
