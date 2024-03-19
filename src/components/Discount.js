@@ -1,28 +1,22 @@
+import { Correo } from "./correo.tsx";
+
 export function Discount() {
   return (
-    <section className="section cta">
+    <section id="linkCorreo" className="section cta">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-12 col-sm-12">
             <div className="text-center">
               <span className="h6 letter-spacing text-white">
-                Impulsa tu empresa
+                conoce nuestra oferta
               </span>
               <h2 className="text-lg mt-4 mb-5 text-white">
-                Recibe más información de{" "}
-                <span className="text-color">Descuentos </span>que tenemos
+                Recibe más{" "}
+                <span className="text-color">información a tu correo </span> de
+                nuestro servicio
               </h2>
-              <div>
-                <input
-                  name="user_email"
-                  type="text"
-                  className="form-control mb-4"
-                  placeholder="Correo electronico"
-                />
-                <a href="pricing.html" className="btn btn-main text-white">
-                  Enviar
-                </a>
-              </div>
+
+              <Correo></Correo>
             </div>
           </div>
         </div>

@@ -13,7 +13,7 @@ export function Hero() {
               digitaliza tu
               <span className="text-color"> negocio y aumenta </span> tus ventas
             </h1>
-            <Link smooth to="#test" className="btn btn-main ">
+            <Link smooth to="#linkContacto" className="btn btn-main ">
               únetenos <i className="ti-angle-right ml-3"></i>
             </Link>{" "}
           </div>

@@ -36,7 +36,7 @@ export function FormContacto() {
   const handleOnSubmit = (values: DatosEmail, actions: any) => {
     axios({
       method: "POST",
-      url: "https://formspree.io/p/2431245809828756720/f/contact",
+      url: "https://formspree.io/f/xleqwlpj",
       data: values,
     })
       .then(() => {
@@ -49,6 +49,7 @@ export function FormContacto() {
       })
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       .catch((error: any) => {
+        console.log(JSON.stringify(error));
         actions.setSubmitting(false);
         handleServerResponse(false, error.response.data.error);
       });
@@ -84,7 +85,7 @@ export function FormContacto() {
                 isValid={touched.nombre && !errors.nombre}
                 isInvalid={!!errors.nombre}
               />
-              <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+              <Form.Control.Feedback>Se ve bien!</Form.Control.Feedback>
               <Form.Control.Feedback type="invalid">
                 {errors.nombre}
               </Form.Control.Feedback>
@@ -101,7 +102,7 @@ export function FormContacto() {
                 isInvalid={!!errors.asunto}
               />
 
-              <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+              <Form.Control.Feedback>Se ve bien!</Form.Control.Feedback>
               <Form.Control.Feedback type="invalid">
                 {errors.asunto}
               </Form.Control.Feedback>
@@ -140,20 +141,21 @@ export function FormContacto() {
                 onChange={handleChange}
                 isInvalid={!!errors.mensaje}
               />
-              <Button disabled={isSubmitting} variant="main mt-4" type="submit">
-                Enviar
-              </Button>
+
               <Form.Control.Feedback type="invalid">
                 {errors.mensaje}
               </Form.Control.Feedback>
             </Form.Group>
           </Form>
-
+          <Button disabled={isSubmitting} variant="main ml-3" type="submit">
+            Enviar
+          </Button>
           {serverState && (
             <p
+              className="ml-4"
               style={{
                 margin: "1em 0",
-                color: serverState.ok ? "auto" : "red",
+                color: serverState.ok ? "green" : "red",
               }}
             >
               {serverState.msg}

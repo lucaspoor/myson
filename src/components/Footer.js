@@ -1,4 +1,5 @@
 import sections from "../data/navbar.json";
+import { HashLink as Link } from "react-router-hash-link";
 
 export function Footer() {
   return (
@@ -23,17 +24,25 @@ export function Footer() {
                 Trabajos recientes
               </h4>
               <div>
-                <a href="blog-single.html" className="text-white">
+                <Link
+                  smooth
+                  to="https://www.cymmedical.cl/"
+                  className="text-white"
+                >
                   Desarrollo sitio web Cymmedical
-                </a>
+                </Link>
                 <p className="text-sm mt-2 text-white-50">
                   30 de noviembre 2023
                 </p>
               </div>
               <div className="mt-4">
-                <a href="blog-single.html" className="text-white">
+                <Link
+                  smooth
+                  to="https://www.pastene.cl/"
+                  className="text-white"
+                >
                   Desarrollo sitio web Pastene
-                </a>
+                </Link>
                 <p className="text-sm mt-2 text-white-50">30 february 2023</p>
               </div>
             </div>
@@ -47,10 +56,10 @@ export function Footer() {
                 {sections.secciones.map((s) => {
                   return (
                     <li>
-                      <a href="about.html">
+                      <Link smooth to={s.link}>
                         <i className="ti-angle-double-right mr-2"></i>
                         {s.seccion}
-                      </a>
+                      </Link>
                     </li>
                   );
                 })}
@@ -73,27 +82,30 @@ export function Footer() {
           <div className="col-lg-4">
             <p className="text-white mt-3">
               PooWeb © 2024 , Desarrollado por{" "}
-              <a href="https://themefisher.com/" className="text-color">
+              <Link smooth to="https://www.pooweb.cl/" className="text-color">
                 Lucas Poo
-              </a>
+              </Link>
             </p>
           </div>
           <div className="col-lg-6 ml-auto text-right">
             <ul className="list-inline mb-0 footer-socials">
               <li className="list-inline-item">
-                <a href="https://www.facebook.com/themefisher">
-                  <i className="ti-facebook"></i>
-                </a>
+                <Link
+                  smooth
+                  to="https://www.linkedin.com/in/lucas-poo-324208203/"
+                >
+                  <i className="ti-linkedin"></i>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <a href="https://twitter.com/themefisher">
-                  <i className="ti-twitter"></i>
-                </a>
+                <Link smooth to="https://www.instagram.com/lucaspoor/">
+                  <i className="ti-instagram"></i>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <a href="https://github.com/themefisher/">
+                <Link smooth to="https://github.com/lucaspoor">
                   <i className="ti-github"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

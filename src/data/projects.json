@@ -1,47 +1,51 @@
 {
   "titulo": "Nuestros Proyectos",
-  "subtitulo": "nuestros sitios web incluyen",
-  "boton": "Cotizanos",
+  "subtitulo": "nuestros sitios web incluyen:",
+  "boton": "Ver sitio",
   "infoextras": [
     {
       "info": "Hosting por 1 año",
-      "icono": "icofont-server",
+      "icono": "icofont-server text-color",
       "info2": "Desarrollo ReactJs",
-      "icono2": "icofont-file-javascript"
+      "icono2": "icofont-file-javascript text-color"
     },
     {
       "info": "Edición de imagenes",
-      "icono": "icofont-image",
+      "icono": "icofont-image text-color",
       "info2": "Certificado SSL",
-      "icono2": "icofont-ssl-security"
+      "icono2": "icofont-ssl-security text-color"
     },
     {
       "info": "Formularios",
-      "icono": "icofont-email",
+      "icono": "icofont-email text-color",
       "info2": "Integración con WSP",
-      "icono2": "icofont-brand-whatsapp"
+      "icono2": "icofont-brand-whatsapp text-color"
     }
   ],
   "infoproyectos": [
     {
       "imagen": "/images/cymm.png",
-      "nombre": "Cymmedical",
-      "tipo": "Landing page"
+      "nombre": "Cymmedical.cl",
+      "tipo": "Piping Médico",
+      "ref": "https://www.cymmedical.cl/"
     },
     {
       "imagen": "/images/doomie.png",
-      "nombre": "Nautique",
-      "tipo": "E-commerce"
+      "nombre": "Pastene.cl",
+      "tipo": "Instalacion Escaleras",
+      "ref": "https://www.pastene.cl/"
     },
     {
       "imagen": "/images/nauticadoomie.png",
-      "nombre": "NauticaCalderon",
-      "tipo": "Showroom page"
+      "nombre": "pooweb.cl",
+      "tipo": "Servicios Web",
+      "ref": "#"
     },
     {
       "imagen": "/images/delta.png",
-      "nombre": "DeltaDigital",
-      "tipo": "Blog personal"
+      "nombre": "carolespinaza.cl",
+      "tipo": "Blog personal",
+      "ref": "https://www.carolespinaza.cl/"
     }
   ]
 }

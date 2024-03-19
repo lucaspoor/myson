@@ -1,5 +1,6 @@
 import forms from "../data/forms.json";
 import { FormContacto } from "./form.tsx";
+import { HashLink as Link } from "react-router-hash-link";
 
 export function Contact() {
   return (
@@ -21,10 +22,11 @@ export function Contact() {
                   {forms.subTitulo}
                 </p>
 
-                <a href="#" className="btn btn-main">
+                <Link smooth to="#linkContacto" className="btn btn-main">
                   {forms.boton}
-                  <i className="fa fa-angle-right ml-2"></i>
-                </a>
+                  <i className="ti-angle-right ml-3"></i>
+                </Link>
+                <i className="fa fa-angle-right ml-2 text-white"></i>
               </div>
             </div>
           </div>

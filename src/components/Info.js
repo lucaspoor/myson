@@ -1,3 +1,4 @@
+import { HashLink as Link } from "react-router-hash-link/dist/react-router-hash-link.cjs.production";
 import info from "../data/info.json";
 
 export function Info() {
@@ -15,13 +16,14 @@ export function Info() {
                     </span>
                     <h3 className="mt-3">{d.titulo}</h3>
                     <p className="mt-3 mb-4">{d.texto}</p>
-                    <a
-                      href="about.html"
+                    <Link
+                      smooth
+                      to="#linkCorreo"
                       className="text-color text-uppercase font-size-13 letter-spacing font-weight-bold"
                     >
                       <i className="ti-minus mr-2 "></i>
                       {d.boton}
-                    </a>
+                    </Link>
                   </div>
                 </div>
               );
@@ -49,12 +51,12 @@ export function Info() {
                   Te ayudaremos a crear un sitio web ideal para tu negocio que
                   impulse sus ventas y su presencia digital, el cual tendra un
                   alto nivel de calidad estetico y tecnologico por valores
-                  asequibles para empresas de mediano y pequeño tamaño
+                  asequibles para empresas de mediano y pequeño tamaño.
                 </p>
 
-                <a href="#" className="btn btn-main">
-                  Learn More<i className="fa fa-angle-right ml-2"></i>
-                </a>
+                <Link smooth to="#linkContacto" className="btn btn-main">
+                  Contáctanos<i className="fa fa-angle-right ml-2"></i>
+                </Link>
               </div>
             </div>
           </div>

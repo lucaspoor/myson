@@ -1,3 +1,4 @@
+import { HashLink as Link } from "react-router-hash-link/dist/react-router-hash-link.cjs.production";
 import projects from "../data/projects.json";
 
 export function Projects() {
@@ -18,10 +19,10 @@ export function Projects() {
                   {projects.infoextras.map((i) => {
                     return (
                       <ul className="list-group list-group-flush col-4 ">
-                        <li className="list-group-item">
+                        <li className="list-group-item ">
                           <i className={i.icono}></i> {i.info}
                         </li>
-                        <li className="list-group-item">
+                        <li className="list-group-item ">
                           <i className={i.icono2}></i> {i.info2}
                         </li>
                       </ul>
@@ -49,13 +50,14 @@ export function Projects() {
                       </span>
                       <h3 class="card-title text-black py-2">{p.nombre}</h3>
 
-                      <a
-                        href="pricing.html"
+                      <Link
+                        smooth
+                        to={p.ref}
                         className="btn btn-solid-border text-color "
                       >
                         {projects.boton}
                         <i className="ti-angle-right ml-3"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 );
